@@ -1,14 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    /* background: #000; */
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 /* homepage */
 .homepage {
-    height: 700px;
-    width: 1380px;
+    height: 790px;
     margin: 0 auto;
     background-color: #1f2837;
     color: #f9faf8;
@@ -65,7 +64,9 @@
     width: 80%;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    padding: 10px 20px;
+    /* border:  2px solid red; */
 }
 
 .hero-left {
@@ -98,4 +99,120 @@ button {
     height: 300px;
     width: 520px;
     border-radius: 10px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 60px;
+    height: 400px;
+    width: 80%;
+    margin:40px auto;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading p{
+    font-size: 48px;
+    font-weight: 800;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     gap: 15px ;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.testimonial{
+    height: 600px;
+    margin:0 auto;
+    background-color: #e5e5eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-content{
+    height: 50%;
+    width: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.testimonial-content > p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    text-align:justify;
+    line-height: 50px;
+}
+.testimonial-content > b {
+    text-align: right;
+    font-size: 18px;
+}
+
+/* Call to action Section */
+.callToAction{
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.callToAction .box{
+    width: 80%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.callToAction-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.callToAction-left b{
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.callToAction-left p{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 400;
+}
+.callToAction-right button{
+    border: 4px solid #e5e5eb;
+}
+.footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #f9faf8;
+    text-align: center;
 }
